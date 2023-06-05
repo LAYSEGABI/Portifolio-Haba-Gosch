@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #0C0A18;
+    background: #02000e;
     font-family: 'Archivo', sans-serif;
     color: aliceblue;
 }
@@ -17,11 +17,10 @@ body {
 .cabecalho {
     display: flex;
     flex-direction: row;
-    height: 8vh;
-    background: linear-gradient(269.93deg, #09294d 2.76%, #041026 20.55%, #020e1e 48.07%, #040f2e 80.88%);
+    background: rgb(13, 13, 14);
     align-items: center;
     justify-content: space-between;
-    padding: 0 4%;
+    padding: 1.4% 4%;
     box-shadow: 0px 21px 21px #000000;
 }
 
@@ -32,8 +31,9 @@ nav {
 
 .cabecalho a {
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(196, 200, 204);
     transition: 0.5s;
+    font-size: 1.1em;
 }
 
 .cabecalho a:hover {
@@ -55,7 +55,7 @@ nav {
 .banner {
     display: flex;
     align-items: center;
-    background: url(img/back-teste.jpg);
+    background: url(img/joel-filipe-QwoNAhbmLLo-unsplash.jpg);
     background-position: center;
     background-size: cover;
     height: 95vh;

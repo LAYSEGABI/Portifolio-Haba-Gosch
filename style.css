@@ -188,7 +188,7 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
 /*serve para o titulo de todas as section*/
@@ -248,7 +248,7 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
 .habilidades-itens {
@@ -419,7 +419,8 @@ nav {
 .sobre {
     text-align: center;
     align-items: center;
-    margin-bottom: 8%;
+    margin: 7% 0;
+    padding-top: 2em;
 }
 
 .container-sobre {
@@ -478,7 +479,7 @@ nav {
     gap: 10px;
     border-radius: 5px;
     width: 30vw;
-    border: solid 1px rgba(255, 255, 255, 0.664);
+    border: solid 1px rgba(242, 244, 245, 0.342);
     padding: 1.3em;
     text-align: left;
     transition: 0.8s;
@@ -514,3 +515,47 @@ nav {
 }
 
 
+/* ---------------- contato ---------------*/
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 8% 0;
+}
+
+.contato-itens {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato-item img {
+    width: 3em;
+}
+
+
+/*-------------------footer----------------*/
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 4em;
+    background-color: #031f2c;
+    border-top: solid 1px white;
+}
+
+
+.minha-ref {
+    text-decoration: none;
+    color: rgb(100, 220, 250);
+    font-weight: bold;
+}

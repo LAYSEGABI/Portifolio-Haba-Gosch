@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background: #00060e;
     font-family: 'Archivo', sans-serif;
@@ -25,6 +27,26 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: rgb(62, 180, 189);
     border-radius: 5px;
+}
+
+/* Botão voltar ao topo*/
+
+.btn-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.btn-fixed.visible {
+    visibility: visible;
+}
+
+.material-symbols-outlined {
+    color: rgb(16, 113, 151);
+    padding: 0.4em;
+    border-radius: 5px;
+    background-color: #031f2c;
 }
 
 
@@ -165,13 +187,19 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 /*serve para o titulo de todas as section*/
 .titulo-section {
     font-size: 2em;
     margin: 2em;
+    
+}
+
+.linha {
+    padding-bottom: 0.4em;
+    border-bottom: solid 1px rgb(255, 255, 255);
 }
 
 .projetos-itens {
@@ -218,14 +246,14 @@ nav {
 .habilidades {
     display: flex;
     flex-direction: column;
-    width: 100%;
     text-align: center;
+    margin-bottom: 8%;
 }
 
 .habilidades-itens {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
 }
 
@@ -242,7 +270,7 @@ nav {
 }
 
 .python-item {
-    width: 82%;
+    width: 83%;
     background-color: #124868;
 }
 

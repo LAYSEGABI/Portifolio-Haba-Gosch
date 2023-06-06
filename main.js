@@ -1,11 +1,9 @@
-let paralaxImagem = document.getElementById('img-terra')
-let paralaxTexto = document.getElementById('paralax-texto')
+const botao = document.querySelector(".btn-fixed")
 
-window.addEventListener('scroll', () => {
-    let value = window.scrollY;
-
-    //paralaxImagem.style.left = value * 1 + 'px';
-    paralaxTexto.style.color = value;
-
+window.addEventListener("scroll", function (event) {
+    if (this.window.scrollY == 0) {
+        botao.classList.remove("visible");
+    } else {
+        botao.classList.add("visible");
+    }
 })
-

@@ -536,6 +536,8 @@ nav {
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 .contato-item img {
@@ -558,4 +560,8 @@ nav {
     text-decoration: none;
     color: rgb(100, 220, 250);
     font-weight: bold;
+    transition: 0.5s;
+}
+.minha-ref:hover {
+    color: #185fca;
 }

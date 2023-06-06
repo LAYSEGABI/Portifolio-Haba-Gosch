@@ -234,11 +234,16 @@ nav {
     gap: 30px;
     align-items: center;
     width: 40%;
-    border-bottom: solid 2px rgb(255, 255, 255);
+    border-left: solid 2px rgb(255, 255, 255);
     border-radius: 5px;
     background-color: #031f2c;
     padding: 1em 1.5em;
     text-align: center;
+}
+
+.python-item {
+    width: 82%;
+    background-color: #124868;
 }
 
 .habilidade-item h6 {
@@ -254,7 +259,7 @@ nav {
 .container-infos {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
     width: 100%;
 }
 
@@ -304,5 +309,71 @@ nav {
 
     100% {
         width: 60%
+    }
+}
+
+.customTkinker {
+    animation: progress-animation-customThinker 2s infinite;
+}
+@keyframes progress-animation-customThinker {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%
+    }
+}
+
+.selenium {
+    animation: progress-animation-selenium 2s infinite;
+}
+@keyframes progress-animation-selenium {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%
+    }
+}
+
+.pandas {
+    animation: progress-animation-pandas 2s infinite;
+}
+@keyframes progress-animation-pandas {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 15%
+    }
+}
+
+
+.scikitLearn {
+    animation: progress-animation-scikitLearn 2s infinite;
+}
+@keyframes progress-animation-scikitLearn {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 20%
+    }
+}
+
+.sqlite {
+    animation: progress-animation-sqlite 2s infinite;
+}
+@keyframes progress-animation-sqlite {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%
     }
 }

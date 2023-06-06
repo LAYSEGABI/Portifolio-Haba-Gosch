@@ -264,7 +264,7 @@ nav {
     align-items: center;
     width: 40%;
     border: solid 1px rgba(255, 255, 255, 0.527);
-    border-left: solid 3px rgb(46, 159, 187);
+    border-left: solid 3px rgb(18, 141, 163);
     border-radius: 5px;
     padding: 1em 1.5em;
     text-align: center;
@@ -272,7 +272,7 @@ nav {
 
 .python-item {
     width: 83%;
-    background-color: #12486859;
+    background-color: #1248683d;
 }
 
 .habilidade-item h6 {
@@ -423,7 +423,6 @@ nav {
 }
 
 .container-sobre {
-    background: url("img/back-sobre-mim.png");
     background-size: cover;
     display: flex;
     flex-direction: row;

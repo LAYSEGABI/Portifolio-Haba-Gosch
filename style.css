@@ -5,9 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     background: #00060e;
     font-family: 'Archivo', sans-serif;
@@ -194,7 +196,7 @@ nav {
 .titulo-section {
     font-size: 2em;
     margin: 2em;
-    
+
 }
 
 .linha {
@@ -317,6 +319,7 @@ nav {
 .python {
     animation: progress-animation-python 2s infinite;
 }
+
 @keyframes progress-animation-python {
     0% {
         width: 0%;
@@ -330,6 +333,7 @@ nav {
 .flask {
     animation: progress-animation-flask 2s infinite;
 }
+
 @keyframes progress-animation-flask {
     0% {
         width: 0%;
@@ -343,6 +347,7 @@ nav {
 .customTkinker {
     animation: progress-animation-customThinker 2s infinite;
 }
+
 @keyframes progress-animation-customThinker {
     0% {
         width: 0%;
@@ -356,6 +361,7 @@ nav {
 .selenium {
     animation: progress-animation-selenium 2s infinite;
 }
+
 @keyframes progress-animation-selenium {
     0% {
         width: 0%;
@@ -369,6 +375,7 @@ nav {
 .pandas {
     animation: progress-animation-pandas 2s infinite;
 }
+
 @keyframes progress-animation-pandas {
     0% {
         width: 0%;
@@ -383,6 +390,7 @@ nav {
 .scikitLearn {
     animation: progress-animation-scikitLearn 2s infinite;
 }
+
 @keyframes progress-animation-scikitLearn {
     0% {
         width: 0%;
@@ -396,6 +404,7 @@ nav {
 .sqlite {
     animation: progress-animation-sqlite 2s infinite;
 }
+
 @keyframes progress-animation-sqlite {
     0% {
         width: 0%;
@@ -405,3 +414,45 @@ nav {
         width: 40%
     }
 }
+
+
+/* ------------------------------- Sobre mim ----------------------*/
+.sobre {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.container-sobre {
+    background: url("img/back-sobre-mim.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    gap: 30px;
+    border-radius: 14px;
+    border: solid 1px white;
+    margin: 0 15%;
+    align-items: center;
+    height: 100%;
+}
+
+.container-sobre img {
+    border-radius: 14px;
+}
+
+.sobre-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.sobre-conteudo p {
+    text-align: justify;
+}
+
+.sobre-conteudo h3 {
+    color: #95cbdb;
+}
+

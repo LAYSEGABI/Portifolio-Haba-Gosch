@@ -1,0 +1,45 @@
+
+.back-foto {
+    background: url(../img/back-banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0px -26px 26px #00080e;
+}
+
+.logo {
+    font-size: 1.6em;
+    font-weight: bold;
+    background: linear-gradient(90deg, #84CABD 16.84%, #2D7255 95.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    background: rgba(13, 13, 14, 0.466);
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4% 5em;
+    box-shadow: 0px 21px 21px #000000;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+    font-weight: 400;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: rgb(210, 217, 224);
+    transition: 0.5s;
+    font-size: 1.1em;
+}
+
+.cabecalho a:hover {
+    color: rgb(59, 180, 189);
+}

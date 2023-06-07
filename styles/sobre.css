@@ -1,0 +1,42 @@
+
+.sobre {
+    text-align: center;
+    align-items: center;
+    margin: 7% 0;
+    padding-top: 2em;
+}
+
+.container-sobre {
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    gap: 30px;
+    border-radius: 14px;
+    border: solid 1px white;
+    margin: 0 15%;
+    align-items: center;
+    height: 100%;
+}
+
+.container-sobre img {
+    border-radius: 14px;
+    width: 50%;
+    border: solid 2px #128b94;
+}
+
+.sobre-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.sobre-conteudo p {
+    text-align: justify;
+}
+
+.sobre-conteudo h3 {
+    color: #25c7d3;
+}
+

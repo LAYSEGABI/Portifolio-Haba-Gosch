@@ -1,0 +1,59 @@
+
+.projeto {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+/*serve para o titulo de todas as section*/
+.titulo-section {
+    font-size: 2em;
+    margin: 2em;
+
+}
+
+.linha {
+    padding-bottom: 0.4em;
+    border-bottom: solid 1px rgb(255, 255, 255);
+}
+
+.projetos-itens {
+    display: flex;
+    gap: 40px;
+}
+
+.projetos-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2em;
+    border-radius: 5px;
+    width: 25vw;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+.projetos-item h5 {
+    font-size: 1.1em;
+}
+
+.descricao-projeto {
+    color: #a8a8a8;
+}
+
+.usado {
+    margin-top: -10px;
+    color: #5bacdb;
+    font-weight: 200;
+}
+
+.projetos-item a {
+    text-decoration: none;
+    color: #4fa9c4;
+    transition: 0.5s;
+}
+
+.projetos-item a:hover {
+    color: #19e48f;
+}

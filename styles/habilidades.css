@@ -1,0 +1,171 @@
+
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.habilidades-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.habilidade-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 40%;
+    border: solid 1px rgba(255, 255, 255, 0.527);
+    border-left: solid 3px rgb(18, 141, 163);
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    text-align: center;
+}
+
+.python-item {
+    width: 83%;
+    background-color: #1248683d;
+}
+
+.habilidade-item h6 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.habilidade-item img {
+    margin-top: 1em;
+    width: 3em;
+}
+
+.container-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.nome-porcentagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* barra d progresso*/
+.container-barra {
+    height: 16px;
+    background-color: #CCC;
+    position: relative;
+    border-radius: 2px;
+}
+
+.container-barra .progress-bar {
+    position: absolute;
+    height: 100%;
+    border-radius: 2px;
+    background-color: #128b94;
+
+}
+
+
+.python {
+    animation: progress-animation-python 2s infinite;
+}
+
+@keyframes progress-animation-python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%
+    }
+}
+
+.flask {
+    animation: progress-animation-flask 2s infinite;
+}
+
+@keyframes progress-animation-flask {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%
+    }
+}
+
+.customTkinker {
+    animation: progress-animation-customThinker 2s infinite;
+}
+
+@keyframes progress-animation-customThinker {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%
+    }
+}
+
+.selenium {
+    animation: progress-animation-selenium 2s infinite;
+}
+
+@keyframes progress-animation-selenium {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%
+    }
+}
+
+.pandas {
+    animation: progress-animation-pandas 2s infinite;
+}
+
+@keyframes progress-animation-pandas {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 15%
+    }
+}
+
+
+.scikitLearn {
+    animation: progress-animation-scikitLearn 2s infinite;
+}
+
+@keyframes progress-animation-scikitLearn {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 20%
+    }
+}
+
+.sqlite {
+    animation: progress-animation-sqlite 2s infinite;
+}
+
+@keyframes progress-animation-sqlite {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%
+    }
+}

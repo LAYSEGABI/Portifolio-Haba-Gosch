@@ -1,0 +1,80 @@
+
+.banner {
+    display: flex;
+    align-items: center;
+    height: 95vh;
+}
+
+.banner-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin-left: 5em;
+}
+
+.banner-conteudo p {
+    font-weight: 300;
+}
+
+.banner-conteudo h1 {
+    border-right: 3px solid rgba(255, 255, 255, 0.75);
+    font-size: 3.2em;
+    animation: blinkCursor 1s steps(40) infinite normal,
+        typing 2.5s steps(40) 1s normal both;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+/*---------animação da tag h1 - Habacuque Gosch -----------*/
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 9em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* --------------------*/
+
+
+.profissao {
+    color: #8aafac;
+    font-weight: bold;
+}
+
+.butoes {
+    display: flex;
+    gap: 20px;
+    margin-top: 5em;
+}
+
+.butoes a {
+    text-decoration: none;
+    background: rgba(91, 88, 104, 0.116);
+    border: solid 1px rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(7px);
+    color: aliceblue;
+    padding: 1em 3.5em;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.butoes a:hover {
+    border: solid 1px rgba(28, 146, 182, 0.555);
+    color: #4fa9c4;
+}

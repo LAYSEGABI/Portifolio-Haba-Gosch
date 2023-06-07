@@ -1,0 +1,28 @@
+
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 8% 0;
+}
+
+.contato-itens {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.contato-item img {
+    width: 3em;
+}

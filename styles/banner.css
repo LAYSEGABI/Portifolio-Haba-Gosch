@@ -78,3 +78,33 @@
     border: solid 1px rgba(28, 146, 182, 0.555);
     color: #4fa9c4;
 }
+
+
+@media (max-width: 600px)
+{
+  .banner {
+    text-align: left;
+    justify-content: center;
+    padding: 3em;
+  }
+
+  .banner-conteudo {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .banner-conteudo h1 {
+    font-size: 1.5em;
+  }
+
+  .butoes {
+    text-align: center;
+    margin-top: 4em;
+  }
+
+  .butoes a {
+    padding: 1em 1.5em;
+  }
+}

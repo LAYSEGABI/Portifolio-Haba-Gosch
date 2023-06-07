@@ -57,3 +57,39 @@
 .projetos-item a:hover {
     color: #19e48f;
 }
+
+@media (max-width: 950px) {
+
+    .projeto {
+        width: 100%;
+        align-items: center;
+        height: auto;
+    }
+    .projetos-itens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos-item {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .projeto {
+        width: 100%;
+        align-items: center;
+  
+        height: auto;
+    }
+    .projetos-itens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos-item {
+        width: 80%;
+    }
+}
